@@ -51,13 +51,14 @@ function LinkIcon(props) {
 
 export const metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description:
+    'Things I’ve made building on my past, current, and future knowledge and experiences.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to build on my past and current knowledge and experiences."
+      title="Things I’ve made building on my past, current, and future knowledge and experiences."
       intro="I am a relentless learner and creator at heart, always seeking to apply the lessons from yesterday to the innovations of today. This page is a showcase of my journey in crafting unique projects that reflect my growth, challenges, and triumphs. Each project here is more than just a testament to technical skills; it's a narrative of the sweat, creativity, and relentless pursuit of knowledge that drives every maker. From code to canvas, these are the milestones of my ever-evolving story as a developer, designer, and thinker."
     >
       <ul

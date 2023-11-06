@@ -3,12 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -39,7 +34,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Liam Marincik, a Denver-based innovator merging technology and creativity to forge impactful solutions and experiences.',
 }
 
 export default function About() {
@@ -58,58 +53,77 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            I’m Liam Marincik, a Denver-based innovator merging technology and
+            creativity.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              From the Ballfield to Bytes: A Journey Through Heart and Hard
+              Drives
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              Growing up, the crack of the bat and the cheer of the crowds were
+              the melodies of my youth. Baseball wasn't just a game for me; it
+              was a passionate pursuit where I learned about teamwork,
+              discipline, and the joy of a well-played inning. I spent countless
+              hours on the diamond, honing my skills and dreaming of one day
+              making it big. The field was where I felt most alive, where every
+              stolen base and home run added chapters to the thrilling story of
+              my life. But as I grew older, a twist of fate presented itself in
+              the form of a heart condition. The very organ that pumped with
+              excitement for the game now dictated a new set of rules—no more
+              baseball.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              This setback might have derailed my spirits, but I found refuge in
+              another world entirely—the digital realm of computers. Here, there
+              were no benches I was relegated to, no sidelines to watch from. In
+              the language of codes and the art of virtual creation, I
+              discovered a new playing field. I immersed myself in learning the
+              intricacies of software, the potential of programming, and the
+              boundless possibilities of digital creation. It was an empowering
+              realization that my potential wasn't limited to physical
+              endeavors; my mind was just as capable of hitting home runs in the
+              realm of technology and innovation.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              The discovery of flight simulation games opened yet another avenue
+              for my aspirations. The thrill of soaring through virtual skies
+              was exhilarating, offering an escape and a challenge all at once.
+              It was a bittersweet discovery, though, as I soon understood that
+              the pilot's license I dreamt of was beyond my reach due to my
+              medical condition. Undeterred, I plunged deeper into the heart of
+              computing, learning to build PCs from scratch and bringing them to
+              life. It was in the whirring of fans and the glow of monitors that
+              I found my calling. As I mapped out motherboards and orchestrated
+              operating systems, a future in IT and software design beckoned to
+              me, promising a world where my passion and skills could thrive
+              unchecked by the limitations of my physical world.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TwitterIcon}>
-              Follow on Twitter
-            </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink
+              href="https://github.com/Coderinsightmaven"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/liam-marincik-49ba54212/"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:lmarincik@proton.me"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              lmarincik@proton.me
             </SocialLink>
           </ul>
         </div>
