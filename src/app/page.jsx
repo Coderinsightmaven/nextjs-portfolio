@@ -184,10 +184,10 @@ export default async function Home() {
             Embark on the compelling journey of Liam Marincik, whose expertise
             as a software designer is matched by his tenacity as a heart patient
             and enthusiasm for plane spotting. Balancing the precision of
-            technology with the unpredictability of health, Liam's story is one
-            of resilience and passion. His perspective is enriched by the highs
-            of innovation and the serenity of watching aircraft traverse the
-            vast skies. Explore the life of a man who designs, endures, and
+            technology with the unpredictability of health, Liam`&apos;`s story
+            is one of resilience and passion. His perspective is enriched by the
+            highs of innovation and the serenity of watching aircraft traverse
+            the vast skies. Explore the life of a man who designs, endures, and
             observes with equal fervor.
           </p>
           <div className="mt-6 flex gap-6">
