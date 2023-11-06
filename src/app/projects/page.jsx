@@ -2,47 +2,39 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-
+import logoReadme from '@/images/logos/readme.svg'
+import logoNoteTake from '@/images/logos/Notetake.png'
+import logoTechBlog from '@/images/logos/tech-blog.png'
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'The Tech Blog',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Using Technologies like Mysql, Express, Mongoose and Handlebars to create a blog that allows users to create, edit and delete posts.',
+    link: {
+      href: 'https://model-view-controller-app-fb427aec1d14.herokuapp.com/',
+      label: 'tech.blog',
+    },
+    logo: logoTechBlog,
   },
   {
-    name: 'Animaginary',
+    name: 'Note Taker',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'High performance web note Taking app. Allows users to create, edit and delete notes.',
+    link: {
+      href: 'https://thawing-tundra-10229-194de3c0cfbe.herokuapp.com/',
+      label: 'Note.Taker',
+    },
+    logo: logoNoteTake,
   },
   {
-    name: 'HelioStream',
+    name: 'Read Me Generator',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'A command line application that generates a readme file based on user input.',
+    link: {
+      href: 'https://github.com/Coderinsightmaven/professional-readme-generator',
+      label: 'Readme.Generator',
+    },
+    logo: logoReadme,
   },
 ]
 
@@ -65,8 +57,8 @@ export const metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Things I’ve made trying to build on my past and current knowledge and experiences."
+      intro="I am a relentless learner and creator at heart, always seeking to apply the lessons from yesterday to the innovations of today. This page is a showcase of my journey in crafting unique projects that reflect my growth, challenges, and triumphs. Each project here is more than just a testament to technical skills; it's a narrative of the sweat, creativity, and relentless pursuit of knowledge that drives every maker. From code to canvas, these are the milestones of my ever-evolving story as a developer, designer, and thinker."
     >
       <ul
         role="list"
