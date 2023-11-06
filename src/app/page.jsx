@@ -5,11 +5,11 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
-import image1 from '@/images/photos/image-1.jpeg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpeg'
-import image4 from '@/images/photos/image-4.jpeg'
-import image5 from '@/images/photos/image-5.jpeg'
+import image1 from '../images/photos/image-1.jpg'
+import image2 from '../images/photos/image-2.jpg'
+import image3 from '../images/photos/image-3.jpeg'
+import image4 from '../images/photos/image-4.jpeg'
+import image5 from '../images/photos/image-5.jpeg'
 
 function MailIcon(props) {
   return (
