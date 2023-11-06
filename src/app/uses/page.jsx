@@ -50,10 +50,10 @@ export default function Uses() {
             daily routine, providing exceptional sound clarity and a seamless,
             lag-free connection that elevates my gaming and music experiences.
             Its comfortable, durable build and dual-battery system allow for
-            uninterrupted use, ensuring I`&apos;`m always at the top of my game.
-            The crisp microphone and high-fidelity speakers make it an
-            indispensable accessory for both competitive gameplay and immersive
-            audio sessions.
+            uninterrupted use, ensuring I’m always at the top of my game. The
+            crisp microphone and high-fidelity speakers make it an indispensable
+            accessory for both competitive gameplay and immersive audio
+            sessions.
           </Tool>
           <Tool title="Logitech G915 Wireless Mechanical Keyboard">
             The Logitech G915 wireless mechanical keyboard offers a sublime
@@ -86,8 +86,8 @@ export default function Uses() {
             built-in Git commands, streamlines my development workflow, making
             coding both faster and more enjoyable. The vast library of
             extensions allows me to tailor the environment to my exact needs,
-            whether I`&apos;`m writing JavaScript, Typescript, or any other
-            language, turning a complex task into a seamless experience.
+            whether I’m writing JavaScript, Typescript, or any other language,
+            turning a complex task into a seamless experience.
           </Tool>
           <Tool title="Github Copilot">
             GitHub Copilot has transformed the way I approach coding challenges,
@@ -106,10 +106,10 @@ export default function Uses() {
             query console, smart code completion, and on-the-fly error detection
             features make database operations incredibly efficient, turning SQL
             writing into a less daunting and more accurate process. The
-            software`&apos;`s ability to connect to a wide variety of databases,
-            along with its powerful data visualization tools, allows me to
-            analyze and manipulate data with ease, making it an indispensable
-            part of my data-centric toolkit.
+            software’s ability to connect to a wide variety of databases, along
+            with its powerful data visualization tools, allows me to analyze and
+            manipulate data with ease, making it an indispensable part of my
+            data-centric toolkit.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
@@ -146,16 +146,16 @@ export default function Uses() {
             hub for my audio entertainment and exploration.
           </Tool>
           <Tool title="GitHub Kahnban Board">
-            GitHub`&apos;`s Kanban board has been a game-changer for managing my
+            GitHub’s Kanban board has been a game-changer for managing my
             software development projects, providing a visual overview of work
             in progress with a simple, drag-and-drop interface that promotes
             agile methodologies. It allows my team and me to track the flow of
             tasks from To Do to Done, facilitating a transparent and efficient
-            way to monitor our project`&apos;`s momentum. The integration with
-            GitHub issues and pull requests keeps everything synchronized,
-            fostering a collaborative environment where every team member can
-            see updates in real time, ensuring we stay aligned and focused on
-            our collective goals.
+            way to monitor our project’s momentum. The integration with GitHub
+            issues and pull requests keeps everything synchronized, fostering a
+            collaborative environment where every team member can see updates in
+            real time, ensuring we stay aligned and focused on our collective
+            goals.
           </Tool>
         </ToolsSection>
       </div>

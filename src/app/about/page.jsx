@@ -57,15 +57,15 @@ export default function About() {
             I’m Liam Marincik, a Denver-based innovator merging technology and
             creativity.
           </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+          <div className='mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400'>
             <p>
               From the Ballfield to Bytes: A Journey Through Heart and Hard
               Drives
             </p>
             <p>
               Growing up, the crack of the bat and the cheer of the crowds were
-              the melodies of my youth. Baseball wasn`&apos;`t just a game for
-              me; it was a passionate pursuit where I learned about teamwork,
+              the melodies of my youth. Baseball was not just a game for me; it
+              was a passionate pursuit where I learned about teamwork,
               discipline, and the joy of a well-played inning. I spent countless
               hours on the diamond, honing my skills and dreaming of one day
               making it big. The field was where I felt most alive, where every
@@ -83,7 +83,7 @@ export default function About() {
               discovered a new playing field. I immersed myself in learning the
               intricacies of software, the potential of programming, and the
               boundless possibilities of digital creation. It was an empowering
-              realization that my potential wasn`&apos;`t limited to physical
+              realization that my potential was not limited to physical
               endeavors; my mind was just as capable of hitting home runs in the
               realm of technology and innovation.
             </p>
@@ -92,14 +92,14 @@ export default function About() {
               for my aspirations. The thrill of soaring through virtual skies
               was exhilarating, offering an escape and a challenge all at once.
               It was a bittersweet discovery, though, as I soon understood that
-              the pilot`&apos;`s license I dreamt of was beyond my reach due to
-              my medical condition. Undeterred, I plunged deeper into the heart
-              of computing, learning to build PCs from scratch and bringing them
-              to life. It was in the whirring of fans and the glow of monitors
-              that I found my calling. As I mapped out motherboards and
-              orchestrated operating systems, a future in IT and software design
-              beckoned to me, promising a world where my passion and skills
-              could thrive unchecked by the limitations of my physical world.
+              the pilots license I dreamt of was beyond my reach due to my
+              medical condition. Undeterred, I plunged deeper into the heart of
+              computing, learning to build PCs from scratch and bringing them to
+              life. It was in the whirring of fans and the glow of monitors that
+              I found my calling. As I mapped out motherboards and orchestrated
+              operating systems, a future in IT and software design beckoned to
+              me, promising a world where my passion and skills could thrive
+              unchecked by the limitations of my physical world.
             </p>
           </div>
         </div>
